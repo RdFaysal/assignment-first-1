@@ -234,3 +234,35 @@ font-size: 14px;
     font-size: 14px;
     
 }
+.ready-think-parent{
+    width: 1080px;
+    margin: auto;
+    background-color: #F7F6F2;
+    padding: 50px 0;
+    margin-bottom: 60px;
+    border-radius: 8px;
+}
+.ready-think-title{
+    text-align: center;
+    margin-bottom: 10px;
+   
+}
+.ready-think-text{
+    text-align: center;
+    font-size: 14px;
+    color: #ACB4BA;
+}
+.ready-think-button{
+    
+    display: flex;
+    align-items: center;
+    margin:16px auto;
+    gap: 5px;
+    padding: 12px 20px;
+    background-color:#30B868;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
