@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+  
+
+
+}
+.inter-font{
+  font-family: "Inter", sans-serif;
+  
+  
+}
+.nav-parent{
+    max-width: 1020px;
+    border:1px solid red;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    align-items: center;
+}
+.nav-image{
+    width:120px;
+    height: 40px;
+}
+.nav-child{
+    display: flex;
+    gap: 32px;
+}
+.nav-child li{
+    list-style: none;
+    
+}
+.nav-child li a{
+    text-decoration: none;
+    font-size: 14px;
+    color:rgba(0, 0, 0, 0.905);
+    
+    
+}
+.nav-parent button{
+    padding: 12px 20px;
+    background-color:#30B868;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.nav-parent button:hover{
+    background-color:#08a84b;
+}
+.hero-image{
+    background-image: url(./assets/hero-bg.png);
+    height: 480px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+.early-access-button{
+    
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    color: #30B868;
+}
+ .dot{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    
+    background: radial-gradient(
+    circle,
+   #469165 20%,      
+    #9ddfb8 55%,
+     #cfe4d8 100%,     
+    transparent 100%
+  );
+    border-radius: 50%;
+
+ }
+ .hero-text{
+    width: 700px;
+    margin: 0 auto;
+    padding: 76px 0px;
+    
+   
+
+ }
+ .hero-title{
+     font-size: 62px;
+     font-weight: bold;
+     color: white;
+     text-align: center;
+    
+ }
+ .color-title{
+    color: #08a84b;
+ }
+ .hero-text-summary{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    line-height: 24px;
+    margin-top: 10px;
+ }
+ .hero-button-parent{
+    
+    display: flex;
+    justify-content: center;
+   margin: 18px auto;
+   gap: 15px;
+   width: fit-content;
+   
+ }
+ .hero-button-start, .hero-button-works{
+    padding: 12px 20px;
+    background-color:#30B868;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+ }
+ .hero-button-start:hover{
+      background-color:#057a36;
+      transition: 0.5s;
+ }
+ .hero-button-works{
+      background-color:#057a3600;
+      transition: 0.5s;
+      border: 1px solid white;
+ }
+ .hero-button-works:hover{
+      background-color:#057a36fa;
+      transition: 0.5s;
+      border: 1px solid white;
+ }
+
