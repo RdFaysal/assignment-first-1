@@ -13,7 +13,6 @@
 }
 .nav-parent{
     max-width: 1020px;
-    border:1px solid red;
     display: flex;
     justify-content: space-between;
     margin: 20px auto;
@@ -146,5 +145,55 @@
       background-color:#057a36fa;
       transition: 0.5s;
       border: 1px solid white;
+ }
+ .notes-structure-parent{
+    text-align: center;
+    padding: 30px 0;
+    
+ }
+ .notes-structure-parent h2{
+    margin-bottom: 10px;
+ }
+ .notes-section-parent{
+    background-color: #FBFBFB;
+    
+
+ }
+ .notes-main-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+ }
+ .notes-each-div{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 24px;
+    width: 260px;
+    height: 220px;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+ }
+ .notes-each-div img{
+    display: flex;
+    width: 40px;
+    padding: 10px;
+    background-color: #F95555;
+    border-radius: 50%;
+    color: white;
+    margin: auto;
+    margin-bottom: 10px;
+ }
+ .notes-each-div h4{
+    font-size: 20px;
+    text-align: center;
+ }
+ .notes-each-div p{
+    font-size: 14px;
+    text-align: center;
+    margin: 10px;
  }
 
